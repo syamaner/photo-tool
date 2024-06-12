@@ -10,11 +10,11 @@ For details, [the following post](https://dev.to/syamaner/building-a-command-lin
 
 ## Next Steps
 
-- Currently only csv format exported from i-GotU device is supported.
+- [ ] Currently only csv format exported from i-GotU device is supported.
   - I had [GPX](https://wiki.openstreetmap.org/wiki/GPX) support as well but removed so next steps will involve:
     - Make csv parsing configurable so mappings can be changed at runtime
     - Bring back GPX Support so that this could be a wider supported format.
-- I have only tested with Sony .arw raw files and will add tests for other raw / compressed formats
-- GPS logs are noisy, so depending on the use case (moving vehicle. walking around, mostly stationary, we might benefit from different algorithms to eliminate the outliers and extrapolate the positions so this will be a topic.
-- Docker multiarchitecture support
-- Ability to restore the originals backed up by Exiftool
+- [ ] I have only tested with Sony .arw raw files and will add tests for other raw / compressed formats
+- [ ] GPS logs are noisy, so depending on the use case (moving vehicle. walking around, mostly stationary, we might benefit from different algorithms to eliminate the outliers and extrapolate the positions so this will be a topic.
+- [ X ] Docker multiarchitecture support
+- [ ] Ability to restore the originals backed up by Exiftool
